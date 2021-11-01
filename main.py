@@ -1,9 +1,6 @@
-from PIL import Image
-import os.path
-
 import image_module
 
-file_path = r"../FontRecogniser/TestPictures/test_picture.jpg";
+file_path = r"../FontRecogniser/TestPictures/test_picture.png";
 
 imageLoader = image_module.image_module()
 
