@@ -2,7 +2,7 @@ from PIL import Image
 import os.path
 
 
-class image_module:
+class ImageModule:
     def __init__(self):
         pass
 

@@ -1,8 +1,8 @@
-import image_module
+from image_module import ImageModule
 
-file_path = r"../FontRecogniser/TestPictures/test_picture.png";
+file_path = r"../FontRecogniser/TestPictures/test_picture.jpg"
 
-imageLoader = image_module.image_module()
+imageLoader = ImageModule()
 
 image = imageLoader.load_image(file_path)
 
